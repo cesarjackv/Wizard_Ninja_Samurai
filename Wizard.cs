@@ -1,6 +1,7 @@
 public class Wizard : Human{
 
-    public Wizard() : base("Wizard", 3, 25, 3, 50){
+    public Wizard(string name) : base(name, 3, 25, 3, 50){
+        Name = name;
     }
 
     public override int Attack(Human target){

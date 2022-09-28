@@ -1,6 +1,7 @@
 public class Samurai : Human{
 
-    public Samurai() : base("Samurai", 3, 3, 3, 200){
+    public Samurai(string name) : base(name, 3, 3, 3, 200){
+        Name= name;
     }
 
     public override int Attack(Human target){
